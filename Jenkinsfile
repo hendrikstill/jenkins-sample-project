@@ -9,6 +9,9 @@ support:
   stage 'Performance Test'
   sh 'echo "Perfomance Test"'
   
+  stage 'Manual Check Stage'
+  input message: "Does http://localhost:8888/staging/ look good?"
+  
   stage 'Deploy'
   sh 'echo "We deploy some code!"'
   
