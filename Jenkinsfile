@@ -7,7 +7,7 @@ support:
   sh 'echo "Test"'
   
   stage 'Performance Test'
-  sh 'echo "Perfomance Test''
+  sh 'echo "Perfomance Test"'
   
   stage 'Deploy'
   sh 'echo "We deploy some code!"'
